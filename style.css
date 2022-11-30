@@ -122,3 +122,62 @@ html {
       display: flex;
       justify-content: center;
   }
+/* Styles quote section */
+.quote{
+    background-color: #E5E7EB;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.quote-container{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.quote-container p {
+    display: flex;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    width: 40%;
+    color: #1F2937;
+    
+}
+.quote-container span{
+    display: flex;
+    padding-left: 700px;
+    
+}
+
+/* Styles call to action section */
+.cta{
+    display: flex;
+    padding: 150px 0 ;
+    justify-content: center;
+    align-items: center;
+}
+.cta-card{
+    display: flex;
+    background-color: #3882F6;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    padding: 75px 0;
+    color: #F9FAF8;
+}
+.cta-card a {
+    text-decoration: none;
+    color: #F9FAF8;
+    border: solid 2px #F9FAF8;
+    border-radius: 8px;
+    padding: 8px 32px;
+}
+.card-text span{
+    font-size: 24px;
+    font-weight: 900;
+    padding-bottom: 16px;
+}
+.card-text p{
+    font-size: 18px;
+    padding-top: 8px;
+}
