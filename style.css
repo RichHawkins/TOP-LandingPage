@@ -54,6 +54,7 @@ html {
       padding: 150px 0;
       font-size: 18px;
       color: #E5E7EB;
+      
   }
   main h1{
       font-size: 48px;
@@ -70,13 +71,54 @@ html {
 
   .hero{
       width: 40%; 
-    
   }
+
   .hero a{
       text-decoration: none;
       background-color:#3882F6 ;
       color: #E5E7EB;
       border-radius: 5px;
-      padding: 8px 16px;
+      padding: 8px 16px; 
+  }
+  
+  /* Styles info section */
+  .info{
+      display: flex;
+      flex-direction: column;
       
+  }
+  h2{
+    display: flex;
+    justify-content: center;
+    padding: 75px 0;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+  }
+  .container{
+      display: flex;
+      margin: 0 auto;
+      justify-content: center;
+      
+  }
+  .card-container{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 15%;
+  }
+  .card-container p{
+      font-size: 18px;
+     width: 75%;
+     text-align: center;
+     padding-top: 16px;
+     padding-bottom: 150px;
+  }
+  .card{
+      width: 200px;
+      height: 200px;
+      border: solid 2px #3882F6;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
   }
